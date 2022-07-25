@@ -1,0 +1,190 @@
+.headerdiv-1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(225, 220, 220);
+    height: 30px;
+}
+.headerdiv-1 p{
+    margin-left: 200px;
+    font-size: 13px;
+}
+.places{
+    margin-left: 550px;
+}
+.places ul{
+    display: flex;
+    align-items: center;
+}
+.places ul li{
+    list-style: none;
+}
+.places ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.places ul li a:hover{
+    color: rgb(93, 92, 92);
+}
+.headerdiv-2{
+    display: flex;
+}
+.nareshItlogo{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.loginlogo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 800px;
+    font-size: 22px;
+}
+.loginlogo span i{
+    color: red;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.headerdiv-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rgb(38, 119, 226);
+    color: white;
+}
+.headerdiv-3 div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.headerdiv-3 div:hover{
+    background-color: rgb(29, 102, 198);
+}
+.headerdiv-3 span{
+    margin-left: 10px;
+}
+#alertbtn{
+    bottom: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    color: white;
+    background-color: rgba(28, 45, 64, 0.8);
+    padding-bottom: 5px;
+    margin-right: 100px;
+}
+.alert-text{
+    margin-left: 130px;
+}
+.gotit{
+    margin-left: 5px;
+    width: 65px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(121, 145, 171);
+    color: white;
+}
+.services{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.servicepara{
+    font-size: 30px;
+    /* margin-top: -75px; */
+    margin-left: 44%;
+}
+.service-box{
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(222, 165, 66);
+}
+.service-1{
+    width: 25%;
+    /* border: 2px solid blue; */
+    height: 170px;
+}
+.TrendingCources{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.card-container{
+    margin-left: 60px;
+    display: flex;
+}
+dd:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popular-techno-box{
+    border-top: 1px solid rgb(251, 251, 91);
+    display: flex;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.popular-techno-box-1{
+    width: 65%;
+    /* border: 2px solid blue; */
+    margin-top: 20px;
+}
+.popular-techno-box-2{
+    /* border: 2px solid blue; */
+    margin-top: 20px;
+    width: 35%;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.blue{
+    border: none;
+    background-color: rgb(104, 159, 228);
+    height: 40px;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 3px;
+}
+.popular-card{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.popularpara{
+    font-size: 30px;
+}
+.inputform{
+    height: 30px;
+    margin-top: 10px;
+}
+.form-p{
+    width: 200px;
+    margin-top: 10px;
+}
+#submitbtn{
+    border: none;
+    color: white;
+    width: 70px;
+    height: 35px;
+    
+}

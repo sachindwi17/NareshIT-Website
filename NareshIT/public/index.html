@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Naresh i technologies</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../src/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container-fluid m-0 p-0">
+
+        <!-- Alert -->
+        <!-- <div class="alert alert-primary alert-dismissible" id="alertbtn">
+            <p class="alert-text">We use cookies to give you the best possible experience while you browse through
+                our website. By pursuing the use of our website you implicitly agree to the usage of cookies on this
+                site.</p>
+            <div><button data-bs-dismiss="alert" class="gotit">Got it!</button></div>
+        </div> -->
+
+        <!-- header -->
+        <div class="header">
+            <div class="headerdiv-1">
+                <p class="mt-3">India's No.1 Software Training Institute</p>
+                <div class="places mt-2">
+                    <ul>
+                        <li><span class="bi bi-geo-alt-fill"></span><a href="#">Hyderabad</a></li><span
+                            class="ms-1 me-1">|</span>
+                        <li><a href="#">Chennai</a></li><span class="ms-1 me-1">|</span>
+                        <li><a href="#">USA</a></li><span class="ms-1 me-1">|</span>
+                        <li><a href="#">Online Training</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="headerdiv-2">
+                <div class="nareshItlogo">
+                    <img src="../public/images/nareshitlogo.png" alt="logo">
+                </div>
+                <div class="loginlogo">
+                    <span><i class="fa-solid fa-right-to-bracket"></i></span>
+                    <span>Login</span>
+                </div>
+            </div>
+            <div class="headerdiv-3">
+                <div class="cource">
+                    <span class="fa-solid fa-book"></span> <span>All Courses</span> <span
+                        class="fa-solid fa-caret-down"></span>
+                </div>
+                <div class="cource">
+                    <span class="fa-solid fa-graduation-cap"></span> <span>Software Training</span> <span
+                        class="fa-solid fa-caret-down"></span>
+                </div>
+                <div class="cource">
+                    <span class="fa-solid fa-bullhorn"></span> <span>Services</span> <span
+                        class="fa-solid fa-caret-down"></span>
+                </div>
+                <div class="cource">
+                    <span class="bi bi-clock"></span> <span>New Batches</span> <span
+                        class="fa-solid fa-caret-down"></span>
+                </div>
+                <div class="cource">
+                    <span class="fa-solid fa-display"></span> <span>Library</span> <span
+                        class="fa-solid fa-caret-down"></span>
+                </div>
+                <div class="cource">
+                    <span class="fa-solid fa-graduation-cap"></span> <span>NASSCOM Aproved Courses</span> <span
+                        class="fa-solid fa-caret-down"></span>
+                </div>
+                <div class="cource">
+                    <span class="fa-solid fa-key"></span> <span>Login</span> <span
+                        class="fa-solid fa-caret-down"></span>
+
+                    <!-- login model -->
+                    <!-- <div class="modal fade" id="signin">
+                        <div class="modal-dialog modal-dialog-center">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2>Sign In</h2>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <dl>
+                                        <dt>User Name:</dt>
+                                        <dd><input type="text" class="form-control"></dd>
+                                        <dt>Password</dt>
+                                        <dd><input type="password" class="form-control"></dd>
+                                        <dd><input type="checkbox"> remind my password</dd>
+                                    </dl>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary w-100">SignIn</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- carousel -->
+        <div class="carousel slide carousel-dark" id="banner" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="../public/images/devops.jpg" class="w-100" style="height: 400px;">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="../public/images/blueprism.jpg" class="w-100" style="height: 400px;">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="../public/images/python.jpg" class="w-100" style="height: 400px;">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="../public/images/datascience.jpg" class="w-100" style="height: 400px;">
+                </div>
+            </div>
+            <button data-bs-slide="prev" data-bs-target="#banner" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-slide="next" data-bs-target="#banner" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- Our Services -->
+        <div class="services">
+            <p class="servicepara">Our <b>Services</b></p>
+            <div class="service-box">
+                <div class="service-1">
+                    <div class="d-flex">
+                        <img src="../public/images/classroom.png" alt="img" width="50px" height="50px" class="ms-4">
+                        <p class="ms-3 mt-3 font-size" style="font-size: 22px;">CLASSROOM TRANING</p>
+                    </div>
+                    <div class="ms-4 mt-3">Quality Traning by Expert of various Technologies to suit aspirants from a
+                        diffrent acadmic profile.</div>
+                </div>
+                <div class="service-1">
+                    <div class="d-flex">
+                        <img src="../public/images/Online-training.png" alt="img" width="50px" height="50px"
+                            class="ms-4">
+                        <p class="ms-3 mt-3 font-size" style="font-size: 22px;">CLASSROOM TRANING</p>
+                    </div>
+                    <div class="ms-4 mt-3">Quality Traning by Expert of various Technologies to suit aspirants from a
+                        diffrent acadmic profile.</div>
+                </div>
+                <div class="service-1">
+                    <div class="d-flex">
+                        <img src="../public/images/corporate.png" alt="img" width="50px" height="50px" class="ms-4">
+                        <p class="ms-3 mt-3 font-size" style="font-size: 22px;">CLASSROOM TRANING</p>
+                    </div>
+                    <div class="ms-4 mt-3">Quality Traning by Expert of various Technologies to suit aspirants from a
+                        diffrent acadmic profile.</div>
+                </div>
+                <div class="service-1">
+                    <div class="d-flex">
+                        <img src="../public/images/weekends.png" alt="img" width="50px" height="50px" class="ms-4">
+                        <p class="ms-3 mt-3 font-size" style="font-size: 22px;">CLASSROOM TRANING</p>
+                    </div>
+                    <div class="ms-4 mt-3">Quality Traning by Expert of various Technologies to suit aspirants from a
+                        diffrent acadmic profile.</div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Trending Cource -->
+        <div class="TrendingCources">
+            <p class="servicepara">Trending <b>Cource</b></p>
+            <div class="card-container">
+                <div class="d-flex flex-wrap">
+                    <div class="card m-3" style="width: 250px;">
+                        <img src="../public/images/Data-Science-online-training-nareshit-450x250.jpg"
+                            class="card-img-top" height="150">
+                        <div class="card-body">
+                            <dl>
+                                <dd><b>Data Science Online Traning</b></dd>
+                                <dd> <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                </dd>
+                                <dd>View Cource</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="card m-3" style="width: 250px;">
+                        <img src="../public/images/go-programming-online-training-450x250.jpg" class="card-img-top"
+                            height="150">
+                        <div class="card-body">
+                            <dl>
+                                <dd><b>Go Programming Online Traning</b></dd>
+                                <dd> <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                </dd>
+                                <dd>View Cource</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="card m-3" style="width: 250px;">
+                        <img src="../public/images/digital-marketing-training-nareshit-450x250.jpg" class="card-img-top"
+                            height="150">
+                        <div class="card-body">
+                            <dl>
+                                <dd><b>Digitel Marketing Online Traning</b></dd>
+                                <dd> <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                </dd>
+                                <dd>View Cource</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="card m-3" style="width: 250px;">
+                        <img src="../public/images/Asp.net-online-training.jpg" class="card-img-top" height="150">
+                        <div class="card-body">
+                            <dl>
+                                <dd><b>ASP.NET Online Traning</b></dd>
+                                <dd> <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                </dd>
+                                <dd>View Cource</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="card m-3" style="width: 250px;">
+                        <img src="../public/images/android-online-training-nareshit-450x250.jpg" class="card-img-top"
+                            height="150">
+                        <div class="card-body">
+                            <dl>
+                                <dd><b>Android Online Traning</b></dd>
+                                <dd> <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                </dd>
+                                <dd>View Cource</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="d-flex flex-wrap">
+                    <div class="card m-3" style="width: 250px;">
+                        <img src="../public/images/Hadoop-online-training-nareshit-450x250.jpg" class="card-img-top"
+                            height="150">
+                        <div class="card-body">
+                            <dl>
+                                <dd><b>Hadoop Online Traning</b></dd>
+                                <dd> <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                </dd>
+                                <dd>View Cource</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="card m-3" style="width: 250px;">
+                        <img src="../public/images/Angular10-450x250.jpg" class="card-img-top" height="150">
+                        <div class="card-body">
+                            <dl>
+                                <dd><b>Angular 10 Online Traning</b></dd>
+                                <dd> <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                </dd>
+                                <dd>View Cource</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="card m-3" style="width: 250px;">
+                        <img src="../public/images/Linux-online-training-nareshit-450x250.jpg" class="card-img-top"
+                            height="150">
+                        <div class="card-body">
+                            <dl>
+                                <dd><b>Linux Unix Online Traning</b></dd>
+                                <dd> <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                </dd>
+                                <dd>View Cource</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="card m-3" style="width: 250px;">
+                        <img src="../public/images/Asp-450x250.jpg" class="card-img-top" height="150">
+                        <div class="card-body">
+                            <dl>
+                                <dd><b>Asp.Net MVC Online Traning</b></dd>
+                                <dd> <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                </dd>
+                                <dd>View Cource</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="card m-3" style="width: 250px;">
+                        <img src="../public/images/php-online-training.jpg" class="card-img-top" height="150">
+                        <div class="card-body">
+                            <dl>
+                                <dd><b>PHP Online Traning</b></dd>
+                                <dd> <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                </dd>
+                                <dd>View Cource</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- popular technologies -->
+        <div class="popular-techno-box">
+            <div class="popular-techno-box-1">
+                <p class="servicepara">Popular <b>Technologies</b></p>
+                <div class="button-box">
+                    <button class="blue"> <span class="fa-solid fa-database"></span> BigData & Hadoop</button>
+                    <button class="blue"> <span class="fa-solid fa-rotate"></span> DevOps</button>
+                    <button class="blue"> <span class="fa-solid fa-eye"></span> Automation</button>
+                    <button class="blue"> <span class="fa-solid fa-cloud"></span> Cloud Technologies</button>
+                    <button class="blue"> <span class="fa-solid fa-code"></span> Web Technologies</button>
+                </div>
+                <div class="popular-card">
+                    <div class="d-flex flex-wrap">
+                        <div class="card m-2" style="width: 170px; height: 250px;">
+                            <img src="../public/images/Docker-online-training-nareshit-450x250.jpg" class="card-img-top" height="120">
+                            <div class="card-body">
+                                <dl>
+                                    <dd><b>Docker Online Traning</b></dd>
+                                    <dd> <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                    </dd>
+                                    <dd>View Cource</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap">
+                        <div class="card m-2" style="width: 170px; height: 250px;">
+                            <img src="../public/images/chef-online-training-nareshit-450x250.jpg" class="card-img-top" height="120">
+                            <div class="card-body">
+                                <dl>
+                                    <dd><b>Chef Online Traning</b></dd>
+                                    <dd> <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                    </dd>
+                                    <dd>View Cource</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap">
+                        <div class="card m-2" style="width: 170px; height: 250px;">
+                            <img src="../public/images/Puppet-online-training-nareshit-450x250.jpg" class="card-img-top" height="120">
+                            <div class="card-body">
+                                <dl>
+                                    <dd><b>Puppet Online Traning</b></dd>
+                                    <dd> <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                    </dd>
+                                    <dd>View Cource</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap">
+                        <div class="card m-2" style="width: 170px; height: 250px;">
+                            <img src="../public/images/Jenkins-online-training-nareshit-450x250.jpg" class="card-img-top" height="120">
+                            <div class="card-body">
+                                <dl>
+                                    <dd><b>Jenkins Online Traning</b></dd>
+                                    <dd> <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                    </dd>
+                                    <dd>View Cource</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap">
+                        <div class="card m-2" style="width: 170px; height: 250px;">
+                            <img src="../public/images/Devops-online-course-training-nareshit-450x250.jpg" class="card-img-top" height="120">
+                            <div class="card-body">
+                                <dl>
+                                    <dd><b>DevOps Online Traning</b></dd>
+                                    <dd> <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                        <span class="bi bi-star-fill text-warning"></span>
+                                    </dd>
+                                    <dd>View Cource</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-techno-box-2">
+                <p class="popularpara">Enroll for <b class="bg-primary text-white">Bright Career...</b></p>
+                <div class="form-lines d-flex">
+                    <div class="form-p"><p><b>First Name <span class="text-danger">*</span></b></p></div><div class="inputform"><input type="text"></div>
+                </div>
+                <div class="form-lines d-flex">
+                    <div class="form-p"><p><b>Last Name <span class="text-danger">*</span></b></p></div><div class="inputform"><input type="text"></div>
+                </div>
+                <div class="form-lines d-flex">
+                    <div class="form-p"><p><b>Email <span class="text-danger">*</span></b></p></div><div class="inputform"><input type="email"></div>
+                </div>
+                <div class="form-lines d-flex">
+                    <div class="form-p"><p><b>Phone <span class="text-danger">*</span></b></p></div><div class="inputform"><input type="number"></div>
+                </div>
+                <div class="form-lines d-flex">
+                    <div class="form-p"><p><b>Mode of Training <span class="text-danger">*</span></b></p></div><div class="inputform"><input type="number"></div>
+                </div>
+                <div class="form-lines d-flex">
+                    <div class="form-p"><p><b>State </b></p></div><div class="inputform"><input type="number"></div>
+                </div>
+                <div class="form-lines d-flex">
+                    <div class="form-p"><p><b>Course <span class="text-danger">*</span></b></p></div><div class="inputform"><input type="number"></div>
+                </div>
+                <div class="form-lines d-flex">
+                    <div class="form-p"></div><button class="inputform bg-primary" id="submitbtn">Submit</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
